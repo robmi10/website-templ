@@ -19,14 +19,14 @@ const Akirapages = () => {
             </ScrollPage>
 
             <ScrollPage page={1}>
-                <Animator animation={ZoomInScrollOut}>
+                <Animator animation={batch(Fade(), Sticky())}>
           
                 <Akira2/>
                 </Animator>
             </ScrollPage>
 
             <ScrollPage page={2}>
-                <Animator animation={FadeUp}>
+                <Animator animation={batch(Fade(), Sticky())}>
              
                 <Akira3/>
                 </Animator>
