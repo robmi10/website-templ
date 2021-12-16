@@ -1,0 +1,15 @@
+.asciilayout{
+    /* filter: invert(39%) sepia(255%) saturate(506%) hue-rotate(308deg) brightness(180%) contrast(110%) */
+    /* filter: invert(39%) sepia(255%) saturate(206%) hue-rotate(308deg) brightness(180%) contrast(110%) */
+
+    filter: invert(39%) sepia(255%) saturate(206%) hue-rotate(308deg) brightness(180%) contrast(110%)
+}
+
+.asciilayout2{
+    filter: invert(39%) sepia(255%) saturate(506%) hue-rotate(308deg) brightness(180%) contrast(110%) 
+
+}
+.fontascii{
+    color: #193bfa;
+    font-family: "Gill Sans", sans-serif;
+}

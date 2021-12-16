@@ -7,6 +7,7 @@ import {firstpageObj, secondpageObj, homepageObj} from "../components/ProjectPag
 import ServiceElements from '../components/Services'
 import Footer  from '../components/Footer'
 
+
 const Pages = () => {
     const [isOpen, setisOpen] = useState(false) 
     const toggle = ( ) =>{
